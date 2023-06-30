@@ -1,21 +1,22 @@
 <nav class="nav">
-    <h2>Apna<span>Dost.</span></h2>
-    <div class="nav-search">
-        <input
-        type="text"
-        class="p-inputtext-sm"
-        placeholder="Search Products here"
-        pInputText/>
-        
-    <div class="card flex justify-content-center">
-        <p-button class="pbutton" label="Search" icon="pi pi-search"></p-button>
-    </div>
-    </div>
+  <h2>Apna<span>Dost.</span></h2>
+  <div class="nav-search">
+    <input
+      type="text"
+      class="p-inputtext-sm"
+      placeholder="Search Products here"
+      pInputText
+    />
 
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Become a seller</a></li>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Cart(0)</a></li>
-    </ul>
+    <div class="card flex justify-content-center">
+      <p-button class="pbutton" label="Search" icon="pi pi-search"></p-button>
+    </div>
+  </div>
+
+  <ul>
+    <li><a routerLink=" ">Home</a></li>
+    <li><a routerLink="seller-auth">Become a seller</a></li> <!-- with "/" router becomes one way -->
+    <li><a href="#">Login</a></li>
+    <li><a href="#">Cart(0)</a></li>
+  </ul>
 </nav>

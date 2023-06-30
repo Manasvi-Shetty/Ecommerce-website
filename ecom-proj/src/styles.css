@@ -11,3 +11,19 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    margin-top: 3%;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
